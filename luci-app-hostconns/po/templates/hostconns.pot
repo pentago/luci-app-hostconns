@@ -1,0 +1,69 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:143
+msgid ""
+"Active connections per LAN host. Domain is the name the host looked up "
+"through this router, read from the system log (requires \"Log queries\" in "
+"the DNS settings); when that lookup has left the log or went to another DNS "
+"server, the remote's reverse DNS name is shown in italics instead."
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:127
+msgid "Domain"
+msgstr ""
+
+#: applications/luci-app-hostconns/root/usr/share/rpcd/acl.d/luci-app-hostconns.json:3
+msgid ""
+"Grant access to host connections (reads conntrack, host hints and the system "
+"log)"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:146
+msgid "Host"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:142
+#: applications/luci-app-hostconns/root/usr/share/luci/menu.d/luci-app-hostconns.json:3
+msgid "Host Connections"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:147
+msgid "Host IP"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:148
+msgid "Host MAC"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:120
+msgid "No matching connections"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:130
+msgid "Port"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:129
+msgid "Protocol"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:128
+msgid "Remote"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:150
+msgid "Remote Port"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:139
+msgid "Remote regex, e.g. samba|google"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:112
+msgid "Reverse DNS"
+msgstr ""
+
+#: applications/luci-app-hostconns/htdocs/luci-static/resources/view/hostconns.js:131
+msgid "Transfer"
+msgstr ""

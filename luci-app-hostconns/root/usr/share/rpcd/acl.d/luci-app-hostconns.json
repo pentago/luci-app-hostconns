@@ -1,0 +1,13 @@
+{
+	"luci-app-hostconns": {
+		"description": "Grant access to host connections (reads conntrack, host hints and the system log)",
+		"read": {
+			"ubus": {
+				"log": [ "read" ],
+				"luci": [ "getConntrackList" ],
+				"luci-rpc": [ "getHostHints", "getNetworkDevices" ],
+				"network.rrdns": [ "lookup" ]
+			}
+		}
+	}
+}

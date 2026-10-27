@@ -1,0 +1,13 @@
+{
+	"admin/services/hostconns": {
+		"title": "Host Connections",
+		"order": 7,
+		"action": {
+			"type": "view",
+			"path": "hostconns"
+		},
+		"depends": {
+			"acl": [ "luci-app-hostconns" ]
+		}
+	}
+}
